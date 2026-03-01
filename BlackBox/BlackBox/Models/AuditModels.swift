@@ -80,11 +80,31 @@ struct GhostFile: Identifiable {
 
 // MARK: - Telemetry Endpoint
 struct TelemetryEndpoint: Identifiable, Codable {
-    let id = UUID()
+    var id = UUID()
     let domain: String
     let source: String // "hosts file", "daemon", etc.
     let isApple: Bool
     let isActive: Bool
+    
+    private enum CodingKeys: String, CodingKey {
+        case id, domain, source, isApple, isActive
+    }
+    
+    init(domain: String, source: String, isApple: Bool, isActive: Bool) {
+        self.domain = domain
+        self.source = source
+        self.isApple = isApple
+        self.isActive = isActive
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = try container.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
+        domain = try container.decode(String.self, forKey: .domain)
+        source = try container.decode(String.self, forKey: .source)
+        isApple = try container.decode(Bool.self, forKey: .isApple)
+        isActive = try container.decode(Bool.self, forKey: .isActive)
+    }
 }
 
 // MARK: - Subscription

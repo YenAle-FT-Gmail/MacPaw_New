@@ -166,7 +166,7 @@ class StateCoordinator: ObservableObject {
         // Strip photo metadata
         log("Stripping GPS metadata from photos...", type: .info)
         for location in auditReport.photoLocations {
-            await neutralizeEngine.stripMetadata(filePath: location.photoPath)
+            _ = await neutralizeEngine.stripMetadata(filePath: location.photoPath)
             completedSteps += 1
             neutralizeProgress = completedSteps / max(totalSteps, 1)
         }

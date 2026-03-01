@@ -3,9 +3,11 @@ import MapKit
 
 struct LocationsPanel: View {
     @EnvironmentObject var coordinator: StateCoordinator
-    @State private var region = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194),
-        span: MKCoordinateSpan(latitudeDelta: 5, longitudeDelta: 5)
+    @State private var cameraPosition: MapCameraPosition = .region(
+        MKCoordinateRegion(
+            center: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194),
+            span: MKCoordinateSpan(latitudeDelta: 5, longitudeDelta: 5)
+        )
     )
     
     var body: some View {
@@ -48,20 +50,22 @@ struct LocationsPanel: View {
     
     // MARK: - Map
     private var mapView: some View {
-        Map(coordinateRegion: $region, annotationItems: coordinator.auditReport.photoLocations) { location in
-            MapAnnotation(coordinate: location.coordinate) {
-                VStack(spacing: 2) {
-                    Image(systemName: "mappin.circle.fill")
-                        .font(.system(size: 24))
-                        .foregroundColor(Color(hex: "FF6B35"))
-                    
-                    Text(location.fileName)
-                        .font(.system(size: 8, design: .monospaced))
-                        .foregroundColor(.white)
-                        .padding(.horizontal, 4)
-                        .padding(.vertical, 2)
-                        .background(Color.black.opacity(0.7))
-                        .cornerRadius(4)
+        Map(position: $cameraPosition) {
+            ForEach(coordinator.auditReport.photoLocations) { location in
+                Annotation(location.fileName, coordinate: location.coordinate) {
+                    VStack(spacing: 2) {
+                        Image(systemName: "mappin.circle.fill")
+                            .font(.system(size: 24))
+                            .foregroundColor(Color(hex: "FF6B35"))
+                        
+                        Text(location.fileName)
+                            .font(.system(size: 8, design: .monospaced))
+                            .foregroundColor(.white)
+                            .padding(.horizontal, 4)
+                            .padding(.vertical, 2)
+                            .background(Color.black.opacity(0.7))
+                            .cornerRadius(4)
+                    }
                 }
             }
         }
@@ -116,10 +120,10 @@ struct LocationsPanel: View {
         guard let first = coordinator.auditReport.photoLocations.first else { return }
         
         if coordinator.auditReport.photoLocations.count == 1 {
-            region = MKCoordinateRegion(
+            cameraPosition = .region(MKCoordinateRegion(
                 center: first.coordinate,
                 span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
-            )
+            ))
         } else {
             let lats = coordinator.auditReport.photoLocations.map { $0.coordinate.latitude }
             let lons = coordinator.auditReport.photoLocations.map { $0.coordinate.longitude }
@@ -131,7 +135,7 @@ struct LocationsPanel: View {
                 latitudeDelta: (lats.max()! - lats.min()!) * 1.3 + 0.01,
                 longitudeDelta: (lons.max()! - lons.min()!) * 1.3 + 0.01
             )
-            region = MKCoordinateRegion(center: center, span: span)
+            cameraPosition = .region(MKCoordinateRegion(center: center, span: span))
         }
     }
 }

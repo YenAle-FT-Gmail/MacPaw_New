@@ -40,7 +40,7 @@ class OrbRenderer: NSObject, MTKViewDelegate {
     func setupPipeline(device: MTLDevice) {
         commandQueue = device.makeCommandQueue()
         
-        guard let library = try? device.makeDefaultLibrary(bundle: Bundle.main) ?? device.makeLibrary(source: OrbRenderer.shaderSource, options: nil) else {
+        guard let library = try? device.makeDefaultLibrary(bundle: Bundle.main) else {
             print("Failed to create Metal library — falling back to inline shaders")
             do {
                 let lib = try device.makeLibrary(source: OrbRenderer.shaderSource, options: nil)

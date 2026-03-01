@@ -69,19 +69,19 @@ actor NeutralizeEngine {
             let randomData1 = generateRandomData(size: fileSize)
             fileHandle.seek(toFileOffset: 0)
             fileHandle.write(randomData1)
-            fcntl(fd, F_FULLFSYNC)  // Force flush to physical storage
+            _ = fcntl(fd, F_FULLFSYNC)  // Force flush to physical storage
             
             // Pass 2: Zero fill
             let zeroData = Data(repeating: 0x00, count: fileSize)
             fileHandle.seek(toFileOffset: 0)
             fileHandle.write(zeroData)
-            fcntl(fd, F_FULLFSYNC)
+            _ = fcntl(fd, F_FULLFSYNC)
             
             // Pass 3: Random data
             let randomData2 = generateRandomData(size: fileSize)
             fileHandle.seek(toFileOffset: 0)
             fileHandle.write(randomData2)
-            fcntl(fd, F_FULLFSYNC)
+            _ = fcntl(fd, F_FULLFSYNC)
             
             fileHandle.closeFile()
             
