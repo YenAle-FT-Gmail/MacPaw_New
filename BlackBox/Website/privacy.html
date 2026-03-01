@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — BlackBox</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">BLACK<span class="logo-accent">BOX</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="legal-page">
+    <h1>Privacy Policy</h1>
+    <p class="legal-date">Last updated: March 1, 2026</p>
+
+    <h2>1. Overview</h2>
+    <p>BlackBox ("the App") is a macOS privacy audit tool developed and distributed by BlackBox Software. This Privacy Policy explains what data the App accesses, how it is processed, and your rights.</p>
+
+    <h2>2. Our Core Principle: Everything Stays Local</h2>
+    <p>BlackBox performs all scanning, analysis, and neutralization entirely on your Mac. <strong>No data is transmitted to any external server, cloud service, or third party.</strong> The App makes zero network requests for analytics, telemetry, or data collection.</p>
+
+    <h2>3. What the App Accesses</h2>
+    <p>When you initiate a scan, BlackBox reads the following data locally:</p>
+    <ul>
+      <li><strong>Photo EXIF Metadata:</strong> GPS coordinates, timestamps, and camera information embedded in JPEG files within your photo library.</li>
+      <li><strong>File System Data:</strong> File names, sizes, and content patterns in your home directory, caches, and temporary folders to detect sensitive strings (e.g., credit card patterns, SSN patterns).</li>
+      <li><strong>Free Space Signatures:</strong> Raw disk sectors are scanned for recoverable file signatures (JPEG, PDF, ZIP headers).</li>
+      <li><strong>DNS Cache & Network Connections:</strong> The App reads system DNS cache and active TCP connections to identify known telemetry and tracking endpoints.</li>
+      <li><strong>Photos.sqlite Database:</strong> The macOS photo library database is queried for geolocation metadata.</li>
+    </ul>
+
+    <h2>4. What the App Does NOT Do</h2>
+    <ul>
+      <li>Does not transmit any data over the internet</li>
+      <li>Does not create user accounts or require sign-in</li>
+      <li>Does not use analytics, crash reporting, or telemetry SDKs</li>
+      <li>Does not access contacts, calendars, email, or messaging data</li>
+      <li>Does not run background processes when the App is closed</li>
+      <li>Does not share data with any third parties</li>
+    </ul>
+
+    <h2>5. Full Disk Access</h2>
+    <p>BlackBox requests Full Disk Access permission to scan protected directories (photo library, application caches). This permission is granted through macOS System Settings and can be revoked at any time. The App will function with reduced coverage without this permission.</p>
+
+    <h2>6. Shadow Vault (Pro Feature)</h2>
+    <p>When you use the Neutralize feature, original files are backed up to an AES-256-CBC encrypted vault stored locally at <code>~/.BlackBox/Vault/</code>. Vault files are automatically purged after 48 hours. The encryption key is stored locally and never transmitted.</p>
+
+    <h2>7. Subscription Data</h2>
+    <p>If you purchase BlackBox Pro, the transaction is processed entirely by Apple through the App Store. BlackBox Software does not receive, store, or process any payment information. Apple's privacy policy governs payment processing.</p>
+
+    <h2>8. Data Retention</h2>
+    <p>Scan results exist only in memory during the App session and are not persisted to disk. Vault backups are stored for 48 hours and then automatically deleted. No logs or scan histories are saved between sessions.</p>
+
+    <h2>9. Children's Privacy</h2>
+    <p>BlackBox is not directed at children under 13. We do not knowingly collect any personal information from children.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date. Continued use of the App after changes constitutes acceptance.</p>
+
+    <h2>11. Contact</h2>
+    <p>For questions about this Privacy Policy, contact us at: <a href="mailto:privacy@blackboxapp.dev">privacy@blackboxapp.dev</a></p>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p>&copy; 2026 BlackBox. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
