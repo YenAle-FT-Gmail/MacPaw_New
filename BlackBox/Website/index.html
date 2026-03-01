@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackBox — Privacy Audit System for macOS</title>
+    <meta name="description"
+        content="BlackBox scans your Mac for hidden privacy exposure — GPS in photos, recoverable deleted files, sensitive data, and active trackers. Everything stays local.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ─── NAV ─── -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#" class="logo">BLACK<span class="logo-accent">BOX</span></a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+                <a href="#download" class="nav-cta">Download Free</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ─── HERO ─── -->
+    <section class="hero" id="hero">
+        <div class="hero-glow"></div>
+        <div class="orb-container">
+            <div class="orb">
+                <div class="orb-ring"></div>
+            </div>
+        </div>
+        <h1>Your Mac remembers<br><span class="highlight">everything.</span></h1>
+        <p class="hero-sub">GPS coordinates in every photo. Deleted files still on disk. Hundreds of active tracking
+            endpoints. BlackBox finds it all — and helps you take it back.</p>
+        <div class="hero-actions">
+            <a href="#download" class="btn btn-primary">Download for macOS</a>
+            <a href="#how-it-works" class="btn btn-ghost">See How It Works</a>
+        </div>
+        <p class="hero-note">Free audit scan. No account required. Everything runs locally.</p>
+
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-num">500+</span>
+                <span class="stat-label">Tracking domains monitored</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">4</span>
+                <span class="stat-label">Scan modules</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">0</span>
+                <span class="stat-label">Data sent to any server</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── TRUST BAR ─── -->
+    <section class="trust-bar">
+        <div class="trust-inner">
+            <div class="trust-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                <span>100% Local Processing</span>
+            </div>
+            <div class="trust-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="10" cy="10" r="8" />
+                    <path d="M10 6v4l3 3" />
+                </svg>
+                <span>Read-Only Audit (Free)</span>
+            </div>
+            <div class="trust-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="11" width="14" height="8" rx="2" />
+                    <path d="M7 11V7a5 5 0 0110 0v4" />
+                </svg>
+                <span>AES-256 Encrypted Vault</span>
+            </div>
+            <div class="trust-item">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 6h18M3 12h18M3 18h18" />
+                </svg>
+                <span>macOS 14+ Native</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FEATURES ─── -->
+    <section class="features" id="features">
+        <h2 class="section-title">What BlackBox Finds</h2>
+        <p class="section-sub">Four scanning modules. Zero network calls. One clear report.</p>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon" style="--accent: #FF6B35;">
+                    <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="14" cy="14" r="5" />
+                        <circle cx="14" cy="14" r="12" />
+                        <line x1="14" y1="2" x2="14" y2="5" />
+                        <line x1="14" y1="23" x2="14" y2="26" />
+                        <line x1="2" y1="14" x2="5" y2="14" />
+                        <line x1="23" y1="14" x2="26" y2="14" />
+                    </svg>
+                </div>
+                <h3>GPS in Photos</h3>
+                <p>Every JPEG can carry your exact latitude and longitude. BlackBox scans EXIF data and queries the
+                    Photos.sqlite database to surface every geotagged image.</p>
+                <span class="feature-tag">Module A — Photo Metadata</span>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon" style="--accent: #A855F7;">
+                    <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="4" y="4" width="20" height="20" rx="3" />
+                        <path d="M9 14l3 3 7-7" />
+                    </svg>
+                </div>
+                <h3>Recoverable Files</h3>
+                <p>Emptying the Trash doesn't erase data—it just removes the pointer. BlackBox scans free space for
+                    JPEG, PDF, and ZIP signatures that are still intact.</p>
+                <span class="feature-tag">Module B — Ghost Files</span>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon" style="--accent: #FF2D55;">
+                    <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M14 3L3 9v10l11 6 11-6V9z" />
+                        <path d="M3 9l11 6m0 0l11-6m-11 6v12" />
+                    </svg>
+                </div>
+                <h3>Sensitive Strings</h3>
+                <p>Plaintext passwords, credit card numbers, SSNs, and API keys hiding in documents and caches.
+                    Pattern-matched across your home directory.</p>
+                <span class="feature-tag">Module C — Data Exposure</span>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon" style="--accent: #00D4FF;">
+                    <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="14" cy="14" r="3" />
+                        <path
+                            d="M14 3v4m0 14v4M3 14h4m14 0h4M5.6 5.6l2.8 2.8m11.2 11.2l2.8 2.8M5.6 22.4l2.8-2.8m11.2-11.2l2.8-2.8" />
+                    </svg>
+                </div>
+                <h3>Active Trackers</h3>
+                <p>Over 500 known telemetry domains checked against your DNS cache and live network connections via
+                    netstat. See who your Mac is phoning home to.</p>
+                <span class="feature-tag">Module D — Telemetry Audit</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── HOW IT WORKS ─── -->
+    <section class="how-it-works" id="how-it-works">
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-sub">Three steps. Under two minutes. No technical knowledge required.</p>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">01</div>
+                <h3>Scan</h3>
+                <p>Hit "Begin Audit." BlackBox runs a read-only sweep of your system. Nothing is modified, uploaded, or
+                    shared.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">02</div>
+                <h3>Review</h3>
+                <p>See a categorized report — geotagged photos on a map, recoverable files, exposed strings, and active
+                    tracking endpoints.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">03</div>
+                <h3>Neutralize</h3>
+                <p>Upgrade to Pro to take action: strip metadata, shred remnants with 3 passes, block trackers, and
+                    store encrypted backups in the Vault.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── PRICING ─── -->
+    <section class="pricing" id="pricing">
+        <h2 class="section-title">Simple Pricing</h2>
+        <p class="section-sub">The audit is always free. Upgrade to fix what it finds.</p>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <div class="price-badge">Free</div>
+                <h3>Audit</h3>
+                <div class="price">$0</div>
+                <ul>
+                    <li>Full 4-module privacy scan</li>
+                    <li>Detailed findings report</li>
+                    <li>GPS photo map view</li>
+                    <li>Telemetry endpoint list</li>
+                    <li>Mission log</li>
+                </ul>
+                <a href="#download" class="btn btn-ghost" style="width:100%;">Download Free</a>
+            </div>
+            <div class="price-card featured">
+                <div class="price-badge accent">Most Popular</div>
+                <h3>Pro — Annual</h3>
+                <div class="price">$29.99<span>/yr</span></div>
+                <div class="price-save">Save 50% vs. monthly</div>
+                <ul>
+                    <li>Everything in Free, plus:</li>
+                    <li>GPS metadata stripping</li>
+                    <li>3-pass forensic file shredder</li>
+                    <li>AES-256 encrypted Shadow Vault</li>
+                    <li>Telemetry endpoint blocking</li>
+                    <li>48-hour Emergency Rewind</li>
+                    <li>Automated weekly re-scans</li>
+                </ul>
+                <a href="#download" class="btn btn-primary" style="width:100%;">Get Pro — $29.99/yr</a>
+            </div>
+            <div class="price-card">
+                <div class="price-badge">Flexible</div>
+                <h3>Pro — Monthly</h3>
+                <div class="price">$4.99<span>/mo</span></div>
+                <ul>
+                    <li>All Pro features</li>
+                    <li>Cancel anytime</li>
+                    <li>Same protections</li>
+                </ul>
+                <a href="#download" class="btn btn-ghost" style="width:100%;">Start Monthly</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FAQ ─── -->
+    <section class="faq" id="faq">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-list">
+            <details class="faq-item">
+                <summary>Does BlackBox send my data anywhere?</summary>
+                <p>No. Every scan runs entirely on your Mac. BlackBox makes zero network requests. There is no
+                    telemetry, no analytics, and no account required.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Is the free scan really free?</summary>
+                <p>Yes. The full 4-module audit — photo GPS, ghost files, sensitive strings, and telemetry — is
+                    completely free with no time limit. You only pay if you want to take action on the findings.</p>
+            </details>
+            <details class="faq-item">
+                <summary>What does "neutralize" actually do?</summary>
+                <p>It strips GPS metadata from photos (rewriting files with kCFNull), overwrites deleted file remnants
+                    with 3-pass random data + fcntl(F_FULLFSYNC), and adds tracking domains to your hosts file. All
+                    originals are backed up to the AES-256 encrypted Shadow Vault first.</p>
+            </details>
+            <details class="faq-item">
+                <summary>What if something goes wrong?</summary>
+                <p>Every file is backed up to the encrypted Shadow Vault before any changes are made. You have 48 hours
+                    to use the Emergency Rewind feature to restore anything to its original state.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Why does it need Full Disk Access?</summary>
+                <p>macOS sandboxes apps by default. Full Disk Access lets BlackBox scan your photo library, caches, and
+                    documents. Without it, the audit can only see a limited subset of files. You can revoke access at
+                    any time in System Settings.</p>
+            </details>
+            <details class="faq-item">
+                <summary>What macOS versions are supported?</summary>
+                <p>BlackBox requires macOS 14 (Sonoma) or later. It's built with SwiftUI and Metal, and runs natively on
+                    Apple Silicon and Intel Macs.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- ─── FINAL CTA ─── -->
+    <section class="final-cta" id="download">
+        <div class="hero-glow bottom-glow"></div>
+        <div class="orb-container small">
+            <div class="orb">
+                <div class="orb-ring"></div>
+            </div>
+        </div>
+        <h2>Find out what your Mac<br>knows about you.</h2>
+        <p>Free audit. No account. Runs in under two minutes.</p>
+        <a href="#" class="btn btn-primary btn-lg">Download BlackBox for macOS</a>
+        <span class="cta-note">Requires macOS 14+&ensp;·&ensp;Apple Silicon & Intel&ensp;·&ensp;~12 MB</span>
+    </section>
+
+    <!-- ─── FOOTER ─── -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo">BLACK<span class="logo-accent">BOX</span></span>
+                <p>Privacy Audit System for macOS</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Product</h4>
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#download">Download</a>
+                </div>
+                <div>
+                    <h4>Support</h4>
+                    <a href="#faq">FAQ</a>
+                    <a href="mailto:support@blackboxapp.dev">Contact</a>
+                </div>
+                <div>
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 BlackBox. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

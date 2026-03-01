@@ -1,0 +1,159 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/master.swiftdeps"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/App/BlackBoxApp.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/BlackBoxApp.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/BlackBoxApp.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/BlackBoxApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/BlackBoxApp.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/BlackBoxApp.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/App/ContentView.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/ContentView.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/ContentView.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/ContentView.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Engines/Audit/AuditEngine.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/AuditEngine.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/AuditEngine.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/AuditEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/AuditEngine.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/AuditEngine.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Engines/Neutralize/NeutralizeEngine.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/NeutralizeEngine.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/NeutralizeEngine.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/NeutralizeEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/NeutralizeEngine.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/NeutralizeEngine.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Models/AuditModels.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/AuditModels.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/AuditModels.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/AuditModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/AuditModels.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/AuditModels.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Models/StateCoordinator.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/StateCoordinator.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/StateCoordinator.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/StateCoordinator~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/StateCoordinator.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/StateCoordinator.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Utilities/Constants.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/Constants.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/Constants.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/Constants~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/Constants.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/Constants.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Utilities/ExclusionList.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/ExclusionList.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/ExclusionList.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/ExclusionList~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/ExclusionList.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/ExclusionList.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Utilities/FullDiskAccessChecker.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/FullDiskAccessChecker.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/FullDiskAccessChecker.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/FullDiskAccessChecker~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/FullDiskAccessChecker.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/FullDiskAccessChecker.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Utilities/HapticManager.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HapticManager.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HapticManager.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HapticManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HapticManager.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HapticManager.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Components/CoreOrbView.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/CoreOrbView.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/CoreOrbView.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/CoreOrbView~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/CoreOrbView.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/CoreOrbView.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Components/HoldToConfirmButton.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HoldToConfirmButton.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HoldToConfirmButton.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HoldToConfirmButton~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HoldToConfirmButton.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HoldToConfirmButton.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Dashboard/DashboardView.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/DashboardView.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/DashboardView.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/DashboardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/DashboardView.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/DashboardView.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Dashboard/FilesPanel.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/FilesPanel.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/FilesPanel.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/FilesPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/FilesPanel.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/FilesPanel.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Dashboard/LocationsPanel.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/LocationsPanel.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/LocationsPanel.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/LocationsPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/LocationsPanel.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/LocationsPanel.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Dashboard/MissionLogPanel.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/MissionLogPanel.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/MissionLogPanel.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/MissionLogPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/MissionLogPanel.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/MissionLogPanel.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Dashboard/OverviewPanel.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/OverviewPanel.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/OverviewPanel.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/OverviewPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/OverviewPanel.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/OverviewPanel.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Dashboard/TelemetryPanel.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/TelemetryPanel.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/TelemetryPanel.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/TelemetryPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/TelemetryPanel.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/TelemetryPanel.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Home/HomeView.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HomeView.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HomeView.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HomeView~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HomeView.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/HomeView.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Onboarding/OnboardingView.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/OnboardingView.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/OnboardingView.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/OnboardingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/OnboardingView.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/OnboardingView.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/BlackBox/Views/Paywall/PaywallView.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/PaywallView.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/PaywallView.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/PaywallView~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/PaywallView.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/PaywallView.dia"
+  },
+  "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/resource_bundle_accessor.d",
+    "object": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/kentaaratani/Documents/GitHub/MacPaw_New/BlackBox/.build/arm64-apple-macosx/debug/BlackBox.build/resource_bundle_accessor.dia"
+  }
+}
